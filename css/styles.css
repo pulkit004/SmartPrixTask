@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Caveat");
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4; }
+
+.btn:hover {
+  background-color: #398AF8;
+  color: #FFF; }
+
+.navbar {
+  background-color: #E9EFF3; }
+  .navbar .form-control {
+    width: 500px; }
+
+.carouselCover img {
+  height: 350px;
+  object-fit: cover; }
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  z-index: 10;
+  position: absolute;
+  opacity: 0.6; }
+
+.content {
+  position: absolute;
+  z-index: 99;
+  left: 0;
+  top: 25px;
+  text-align: center; }
+
+.content-cool {
+  position: absolute;
+  z-index: 99;
+  left: 70px;
+  top: 75px;
+  text-align: center; }
+
+.card {
+  border: none; }
+  .card .card-body {
+    padding: 0; }
+
+.category-box {
+  margin: 30px 10px; }
+  .category-box .img-fluid {
+    height: 120px;
+    width: 200px;
+    object-fit: cover; }
+
+.deal-header {
+  background-color: #398AF8;
+  color: #FFF;
+  box-shadow: none;
+  border-bottom: 0; }
+  .deal-header h1 {
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 0; }
+
+.card-popular img {
+  height: 248px;
+  object-fit: cover; }
+.card-popular a {
+  text-decoration: none; }
+
+.list-group-item {
+  padding: 0.68rem 1.25rem; }
+
+.carouselDeal img {
+  height: 198px;
+  object-fit: cover; }
+.carouselDeal .content-deal {
+  position: absolute;
+  z-index: 99;
+  left: 15%;
+  top: 30%; }
+.carouselDeal .carousel-control-prev {
+  left: -40px;
+  background: #000;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  top: 34%;
+  opacity: 0.9;
+  z-index: 999; }
+  .carouselDeal .carousel-control-prev i {
+    padding-right: 5px;
+    padding-bottom: 2px; }
+.carouselDeal .carousel-control-next {
+  right: -40px;
+  background: #000;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  top: 34%;
+  opacity: 0.9;
+  z-index: 999; }
+  .carouselDeal .carousel-control-next i {
+    padding-left: 5px;
+    padding-bottom: 2px; }
+
+.findYourPhone form {
+  position: relative; }
+.findYourPhone i {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  font-size: 1.5rem;
+  color: #d8d8d8; }
+.findYourPhone ::placeholder {
+  color: #d8d8d8; }
+
+.versus {
+  position: relative;
+  width: 100%; }
+  .versus::before {
+    position: absolute;
+    content: '';
+    width: 40%;
+    height: 2px;
+    top: 18px;
+    left: 0;
+    background-color: #f6f6f6; }
+  .versus::after {
+    position: absolute;
+    content: '';
+    width: 37%;
+    height: 2px;
+    top: 18px;
+    right: 10px;
+    background-color: #f6f6f6; }
+
+.list-image {
+  height: 35px;
+  width: 35px;
+  object-fit: cover; }
+
+.footer {
+  padding: 30px 30px; }
+  .footer .form-control {
+    width: 300px;
+    display: block; }
+  .footer li {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  .footer a {
+    color: #d8d8d8;
+    text-decoration: none; }
+    .footer a:hover {
+      color: #FFF; }
+
+@media (max-width: 912px) {
+  .navbar {
+    background-color: #E9EFF3; }
+    .navbar form {
+      margin: 10px; }
+    .navbar .form-control {
+      width: 100%; }
+
+  .carouselDeal img {
+    height: 198px;
+    object-fit: cover; }
+  .carouselDeal .content-deal {
+    position: absolute;
+    z-index: 99;
+    left: 15%;
+    top: 30%; }
+  .carouselDeal .carousel-control-prev {
+    left: -20px;
+    background: #000;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    top: 45%;
+    opacity: 0.9;
+    z-index: 999; }
+    .carouselDeal .carousel-control-prev i {
+      padding-right: 5px;
+      padding-bottom: 2px; }
+  .carouselDeal .carousel-control-next {
+    right: -20px;
+    background: #000;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    top: 45%;
+    opacity: 0.9;
+    z-index: 999; }
+    .carouselDeal .carousel-control-next i {
+      padding-left: 5px;
+      padding-bottom: 2px; }
+
+  .footer .form-control {
+    width: 100%; } }
+
+/*# sourceMappingURL=styles.css.map */
